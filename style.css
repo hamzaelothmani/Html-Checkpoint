@@ -1,7 +1,9 @@
 html {
     margin: 0 444px 0 444px;
 }
-
+.navbar {
+  position: sticky;
+}
 .flex-container {
     display: flex;
     justify-content: end;
@@ -19,10 +21,10 @@ html {
     margin: 0px;
 }  
 div > .about {
-    color: #008398;
+    color: #00b39b;
 }
   .career1:hover {
-    color: #008398;
+    color: #00b39b;
   }
 .dropbtn {
     background-color: white;
@@ -58,7 +60,7 @@ div > .about {
     line-height: 40px;
   }
   
-  .dropdown-content a:hover {color: #008398;}
+  .dropdown-content a:hover {color: #00b39b;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -66,4 +68,46 @@ div > .about {
   
   .dropdown:hover .dropbtn {
    color: #008398;
+  }
+  
+  .myDIV {
+    width:80%;
+    height: 50px;
+    background-color:#FFFFFF;
+    border:1px solid;
+    border-style: hidden;
+    text-align: center;
+    size: 13px;
+    padding:0;
+    margin: 40px 0 0 0;
+  }
+  .myDIV > .headline {
+   
+    font-family: "work sans" ,Arial, sans-serif;
+    font-size: 34px;
+    color: #00b39b;
+    
+  
+    height: 44px;
+    margin: 34px 0 34px 0;
+    line-height: 44px;
+  }
+  .parag {
+    display: flex;
+    justify-content: space-around;
+  
+
+  }
+  .parag > p {
+    font-family: Roboto, arial, sans-serif;
+    padding: 1px 15px 0 0;
+    margin: 13px 0 13px 0;
+    background-color: #FFFFFF;
+    line-height: 28px;
+    color: #747474;
+    font-size: 16px;
+    text-align: left;
+    height: 112px;
+    width: 477px;
+    
   }
