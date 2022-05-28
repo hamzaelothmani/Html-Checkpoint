@@ -83,7 +83,7 @@ div > .about {
     border-style: hidden;
     text-align: center;
     size: 13px;
-    padding:0;
+    padding:0 0 0 100px;
     margin: 40px 0 0 0;
   }
   .myDIV > .headline {
@@ -100,6 +100,7 @@ div > .about {
   .parag {
     display: flex;
     justify-content: space-around;
+   
   
 
   }
