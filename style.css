@@ -1,6 +1,10 @@
-html {
-    margin: 0 444px 0 444px;
+
+html:not(.except) {
+  margin: 0 444px 0 444px;;
 }
+
+
+
 .navbar {
   position: sticky;
 }
@@ -203,11 +207,194 @@ div > .about {
 }
  .clinics h1 {
    font-size: 26px;
-   line-height: 33.8px;
    letter-spacing: -0.3px;
   font-weight: 400;
  }
+ .logoplace {
+  border: 1px hidden black;
+  width: 100%;
+  height: 200px;
+  font-family: "Roboto", arial, sans-serif;;
+ }
+ .logoplace h1 {
+   position: relative;
+   border: 1px hidden red;
+   padding: 40px 0;
+   width: 250px;
+   font-family: "Work Sans",Arial,sans-serif;
+   font-weight: 300;
+    font-size: 26px;
+    letter-spacing: -0.3px;
+    line-height: 33px;
+    color: #00b39b;
+ }
+ .except {
+
+   width: 100%;
+   height: 600px;
+   overflow: hidden;
+   border: 1PX hidden;
+   background-color: #e5faf8;
+ }
+
+ #boxes {
+   height: 600px;
+   width: 497.5px;
   
+   float: right;
+   margin-top: 15px;
+   
+ }
+ 
+ 
+ .fcard {
+   background-color: white;
+   height: 250px;
+   width: 228px;
+   border-radius: 5px;
+ 
+   float: right;
+   margin: 10px 10px 0 0;
+   
+ }
+ .ccard {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+
+  margin: 30px 0 0 10px;
+  
+ }
+ .tcard {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+ 
+  float: right;
+  margin: 0 10px 0 0;
+ 
+ }
+ .last {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+ 
+  margin: 20px 0 0 10px;
+ }
+ .ccard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .ccard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .ccard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .fcard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .fcard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .fcard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .tcard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .tcard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .tcard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .last div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .last h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .last p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .bighead {
+  position: relative;
+   width: 400px;
+   height: 100px;
+   padding-top: 32px;
+ }
+ .bighead h1 {
+   display: block;
+  font-family: "work sans", arial, sans-serif;
+  font-weight: 300;
+  line-height: 44px;
+  font-size: 34px;
+  color: #00b39b;
+  letter-spacing: -0.3px;
+ }
+ .desc {
+  position: absolute;
+   width: 390px;
+   height: 48px;
+   margin-top: 30px;
+ }
+ .desc {
+  font-size: 13px;
+  line-height: 16.9px;
+  color: #747474;
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 400;
+ }
+ .biglogo {
+   position: absolute;
+   margin-top: 150px;
+   overflow: hidden;
+   height: 320px;
+ }
+
 
 
 
