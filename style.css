@@ -524,17 +524,27 @@ margin: auto;
   
 }
 .bfooter {
-border: 1px solid;
+  position: relative;
+border-top: 1px solid #eef2f2;
+padding: 30px 0 0 0 ;
 
 }
-.bfooter p {
+.bfooter  {
+  display: block;
   font-family: roboto, arial, sans-serif;
   font-size: 12px;
-  line-height: 15.6;
+  line-height: 15.6px;
   color: #ababaa;
- 
-
+  text-align: center;
 }
+.ex4 {
+  position: relative;
+  bottom: 10px;
+}
+span:hover {
+  text-decoration: underline;
+}
+
 
 
 
