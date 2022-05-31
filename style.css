@@ -1,6 +1,6 @@
 
 body {
-  margin: 0 444px 0 444px;
+
 }
 
 
@@ -9,6 +9,7 @@ body {
   top: 0%;
   background-color: white;
   padding-top: 15px;
+  z-index: 1;
   
   
  
@@ -17,6 +18,7 @@ body {
     display: flex;
     justify-content: end;
     color: #747474;
+    margin: 0 444px 0 444px;
     
  
 }
@@ -35,6 +37,7 @@ div > .about {
 }
 .hlogo {
   float: left;
+  margin: 0 444px 0 444px;
   
 }
   .career1:hover {
@@ -96,24 +99,28 @@ div > .about {
     size: 13px;
     padding:0 0 0 100px;
     margin: 40px 0 0 0;
+    
+    
+  }
+  .pic {
+    margin-left: 200px;
   }
   .myDIV > .headline {
    
     font-family: "work sans" ,Arial, sans-serif;
     font-size: 34px;
     color: #00b39b;
-    
-  
     height: 44px;
-    margin: 34px 0 34px 0;
+    width: 800px;
+    margin: 34px 444px 34px 444px;
     line-height: 44px;
   }
   .parag {
     display: flex;
     justify-content: space-around;
+    width: 1000px; 
+    margin-left: 350px;
     
-   
-  
 
   }
   .parag > p {
@@ -125,14 +132,13 @@ div > .about {
     color: #747474;
     font-size: 16px;
     text-align: left;
-    height: 112px;
-    width: 477px;
-    
   }
   .cards {
     display: flex;
     justify-content: space-around;
     margin-top: 345px;
+    margin-left: 444px;
+    margin-right: 444px;
    
    
     color: #FFFFFF;
@@ -221,7 +227,8 @@ div > .about {
  .logoplace {
   width: 100%;
   height: 200px;
-  font-family: "Roboto", arial, sans-serif;;
+  font-family: "Roboto", arial, sans-serif;
+  
  }
  .logoplace h1 {
    position: relative;
@@ -233,7 +240,22 @@ div > .about {
     letter-spacing: -0.3px;
     line-height: 33px;
     color: #00b39b;
+    margin-left: 444px;
  }
+
+ul {
+  display: flex;  
+  flex-wrap: wrap;
+  list-style: none;
+  width: 600px;
+  height: 120px;
+  margin-left: 800px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+
+ 
  .except {
 
    width: 100%;
@@ -245,7 +267,7 @@ div > .about {
  #boxes {
    height: 600px;
    width: 497.5px;
-  
+   margin-right: 444px;
    float: right;
    margin-top: 15px;
    
@@ -370,6 +392,8 @@ div > .about {
    width: 400px;
    height: 100px;
    padding-top: 32px;
+   margin-left: 444px;
+
  }
  .bighead h1 {
   font-family: "work sans", arial, sans-serif;
@@ -378,12 +402,15 @@ div > .about {
   font-size: 34px;
   color: #00b39b;
   letter-spacing: -0.3px;
+  
  }
  .desc {
   position: absolute;
    width: 390px;
    height: 48px;
    margin-top: 30px;
+   margin-left: 444px;
+
  }
  .desc {
   font-size: 14px;
@@ -397,6 +424,8 @@ div > .about {
    margin-top: 150px;
    overflow: hidden;
    height: 320px;
+   margin-left: 300px;
+
  }
  .improve {
   position: relative;
@@ -434,7 +463,9 @@ font-size: 14px;
 .OQP {
   display: flex;
   flex-wrap: wrap;
-  
+  margin-left: 444px;
+  margin-right: 444px;
+
   padding: 10px;
 }
 .city {
